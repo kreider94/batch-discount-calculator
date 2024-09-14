@@ -4,6 +4,8 @@
 
 The Batch Discount Calculator is a proposed feature for the product return flow for Birl. This feature allows users to calculate potential discounts based on the number of items they wish to trade in.
 
+![](assets/calculator.png)
+
 **Features**
 
 - Dynamic Discount Calculation: Users can input the number of items they want to trade in, and the calculator displays the corresponding discount they could potentially receive
