@@ -1,8 +1,8 @@
 import React from 'react';
 import { CssBaseline, Container } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
-import BatchDiscountCalculator from './BatchDiscountCalculator';
 import { ShopProvider } from './ShopContext';
+import BatchDiscountCalculator from './BatchDiscountCalculator';
 import theme from "./theme";
 
 function App() {
