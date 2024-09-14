@@ -1,27 +1,27 @@
-import React, { useContext, useState } from 'react'
-import { ShopContext } from './ShopContext'
-import { Slider, Typography, Box } from '@mui/material'
-import { makeStyles } from '@mui/styles'
+import React, { useContext, useState } from "react";
+import { ShopContext } from "./ShopContext";
+import { Slider, Typography, Box } from "@mui/material";
+import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   calculatorContainer: {
-    maxWidth: '400px',
+    maxWidth: "400px",
     margin: theme.spacing(1),
     paddingBottom: theme.spacing(2),
     backgroundColor: theme.palette.secondary.main,
-    textAlign: 'center',
+    textAlign: "center",
     boxShadow: theme.customShadows.default,
     borderRadius: theme.customBorders.rounded,
   },
   sliderContainer: {
-    display: 'flex',
+    display: "flex",
     padding: theme.spacing(3),
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
-    backgroundColor: 'white',
-    justifyContent: 'center',
-    flexDirection: 'column',
-    border: `${'1px solid ' + theme.palette.secondary.main}`,
+    backgroundColor: "white",
+    justifyContent: "center",
+    flexDirection: "column",
+    border: `${"1px solid " + theme.palette.secondary.main}`,
     boxShadow: theme.customShadows.default,
     borderRadius: theme.customBorders.rounded,
   },
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(2),
   },
   discountText: {
-    marginTop: '20px',
+    marginTop: "20px",
   },
   discountContainer: {
     padding: theme.spacing(2),
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
     color: theme.palette.alternative.main,
   },
-}))
+}));
 
 const BatchDiscountCalculator = () => {
   const classes = useStyles();
@@ -50,7 +50,7 @@ const BatchDiscountCalculator = () => {
 
   const handleSliderChange = (event, newValue) => {
     setItemsCount(newValue);
-  }
+  };
 
   return (
     <Box className={classes.calculatorContainer}>
@@ -81,7 +81,7 @@ const BatchDiscountCalculator = () => {
         </Typography>
       </Box>
     </Box>
-  )
-}
+  );
+};
 
-export default BatchDiscountCalculator
+export default BatchDiscountCalculator;

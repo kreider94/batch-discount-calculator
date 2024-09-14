@@ -1,47 +1,47 @@
-import { createTheme } from '@mui/material/styles'
+import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   customShadows: {
-    default: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+    default: "0px 4px 6px rgba(0, 0, 0, 0.1)",
   },
   customBorders: {
-    rounded: '8px',
+    rounded: "8px",
   },
   palette: {
     primary: {
-      main: '#51BE58',
+      main: "#51BE58",
     },
     secondary: {
-      main: '#D8D8DA',
+      main: "#D8D8DA",
     },
     alternative: {
-      main: '#6FB956',
+      main: "#6FB956",
     },
   },
   typography: {
     h1: {
-      fontSize: '1.2rem',
+      fontSize: "1.2rem",
       fontWeight: 700,
-      padding: '0.8rem',
+      padding: "0.8rem",
     },
     h2: {
-      fontSize: '1.2rem',
+      fontSize: "1.2rem",
       fontWeight: 600,
     },
     h3: {
-      fontSize: '1rem',
+      fontSize: "1rem",
       fontWeight: 700,
-      padding: '0.6rem',
+      padding: "0.6rem",
     },
     h4: {
-      fontSize: '2rem',
+      fontSize: "2rem",
       fontWeight: 800,
     },
     h5: {
-      fontSize: '0.8rem',
+      fontSize: "0.8rem",
       fontWeight: 800,
     },
   },
-})
+});
 
-export default theme
+export default theme;
